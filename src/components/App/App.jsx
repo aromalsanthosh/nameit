@@ -3,7 +3,7 @@ import Header from '../Header/Header';
 import SearchBox from '../SearchBox/SearchBox';
 import ResultsContainer from '../ResultsContainer/ResultsContainer'
 import './App.css';
-
+import Footer from '../Footer/Footer';
 const name = require('@rstacruz/startup-name-generator');
 
 
@@ -32,6 +32,7 @@ class App extends React.Component{
         />
         <SearchBox onInputChange={this.handleInputChange}/>
         <ResultsContainer suggestedNames={this.state.suggestedNames}/>
+        <Footer/>
       </div>
     )
   }

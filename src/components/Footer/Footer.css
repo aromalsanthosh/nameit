@@ -1,0 +1,21 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    
+    margin: 0;
+  
+    z-index: 99;
+}
+
+.footer-link {
+    
+    font-size: 14px;
+    /* color: #34353b; */
+    color: #e7e6e7;
+    margin: 10px;
+    text-align: center;
+}
+
+.footer-link:hover{
+    color: #a592f2;
+}
