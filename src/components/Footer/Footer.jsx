@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className="footer-container">
             <p>
-            Made with ❤️ by <a href="https://aromal.engineer"
+            Made with ❤️ by <a href="https://aromalsanthosh.tech"
             target="_blank"
             rel="noreferrer"
             className="footer-link"
